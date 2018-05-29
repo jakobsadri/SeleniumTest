@@ -131,7 +131,7 @@ public class CheckOrderStepsTest {
 		nameBox.sendKeys("jakob");
 
 		WebElement nameBox11 = driver.findElement(By.name("txtPassword"));
-		nameBox11.sendKeys("logar...");
+		nameBox11.sendKeys("l...");
 
 		// Wait
 		WebDriverWait wait2 = new WebDriverWait(driver, 10);

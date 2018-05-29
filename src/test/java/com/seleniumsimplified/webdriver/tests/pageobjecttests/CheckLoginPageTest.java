@@ -108,7 +108,7 @@ public class CheckLoginPageTest {
 		wait.until(ExpectedConditions.elementToBeClickable(By.name("txtUserId")));
 
 		WebElement nameBox2 = driver.findElement(By.name("txtPassword"));
-		nameBox2.sendKeys("logar...");
+		nameBox2.sendKeys("l...");
 
 		// Wait
 		WebDriverWait wait2 = new WebDriverWait(driver, 10);
